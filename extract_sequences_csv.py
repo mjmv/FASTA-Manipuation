@@ -8,12 +8,12 @@ Created on Sun Sep 21 19:22:06 2014
 
 ## file containing sequences in csv format
 ## change path to desired file
-f = open('C:/Users/') 
+f = open('C:/Users/', 'r') 
 
 ## file containing identifier for sequences to extract (names, motifs, etc.) 
 ## file contains each identifier on a separate line
 ## change path to desired file
-r = open('C:/Users/') 
+r = open('C:/Users/', 'r') 
 
 ## output file to contain extracted sequences
 ## change name to desired name/location
