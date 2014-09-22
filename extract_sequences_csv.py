@@ -28,7 +28,7 @@ for entry in f:
         entries.append(entry)
 
 for taxon in r:
-    taxon2=taxon.rstrip("\n")
+    taxon2 = taxon.rstrip("\n")
     if taxon2 not in taxa:
         taxa.append(taxon2)
       
